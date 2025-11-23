@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/Harika-jpg944/Alc_Ansi_project.git'
+                git branch: 'main', url: 'https://github.com/Harika-jpg944/harika-web.git'
             }
         }
     
